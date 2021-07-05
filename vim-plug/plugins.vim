@@ -26,5 +26,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Color Highlighter
     Plug 'norcalli/nvim-colorizer.lua'
     " Status line
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
