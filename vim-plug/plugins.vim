@@ -28,5 +28,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Status line
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    " Vim Surround
+    Plug 'tpope/vim-surround'
 
 call plug#end()
