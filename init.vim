@@ -20,6 +20,7 @@ luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
 luafile $HOME/.config/nvim/lua/plugins/colorizer.lua
 luafile $HOME/.config/nvim/lua/plugins/lspkind.lua
 luafile $HOME/.config/nvim/lua/plugins/lightbulb.lua
+luafile $HOME/.config/nvim/lua/plugins/ts-rainbow.lua
 "source $HOME/.config/nvim/plug-config/coc.vim
 
 " LSP

@@ -21,6 +21,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hrsh7th/nvim-compe'
     Plug 'onsails/lspkind-nvim'
     Plug 'kosayoda/nvim-lightbulb'
+    " Tree sitter
+    Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'p00f/nvim-ts-rainbow'
     " Telescope
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
