@@ -11,7 +11,12 @@ let g:airline_powerline_fonts = 1
 "let g:airline_right_sep = ''
 
 " Switch to your current theme
-let g:airline_theme = 'onedark'
+" SOME EXAMPLE : 
+    "onedar
+    "base16_solarized
+    "base16_solarized_dark
+    "base16_solarized_light
+let g:airline_theme = 'base16_solarized_dark'
 
 " Always show tabs
 set showtabline=2

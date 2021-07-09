@@ -1,21 +1,29 @@
-" Import plugins
+" Plugins
 source $HOME/.config/nvim/vim-plug/plugins.vim
 
-" Import general settings
+" general settings
 source $HOME/.config/nvim/general/settings.vim
 
-" Import key mappings
+" Key mappings
 source $HOME/.config/nvim/keys/mappings.vim
 
-" Import theme
+" Themes and Colorschemes
 "source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/themes/NeoSolarized.vim
 
-" Import coc configs
-source $HOME/.config/nvim/plug-config/coc.vim
-
-" Impor barbar config
+" Plugin Config
 source $HOME/.config/nvim/plug-config/barbar.vim
+source $HOME/.config/nvim/plug-config/lsp-config.vim
+luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
+luafile $HOME/.config/nvim/lua/plugins/colorizer.lua
+luafile $HOME/.config/nvim/lua/plugins/lspkind.lua
+luafile $HOME/.config/nvim/lua/plugins/lightbulb.lua
+"source $HOME/.config/nvim/plug-config/coc.vim
 
-lua require('colorizer').setup();
+" LSP
+luafile $HOME/.config/nvim/lua/lsp/bash-lsp.lua
+luafile $HOME/.config/nvim/lua/lsp/ts-lsp.lua
+luafile $HOME/.config/nvim/lua/lsp/vim-lsp.lua
+luafile $HOME/.config/nvim/lua/lsp/html-lsp.lua
+

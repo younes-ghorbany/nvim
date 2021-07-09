@@ -15,7 +15,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Onedark Theme
     Plug 'joshdick/onedark.vim'
     " Intellicense
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    "Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'glepnir/lspsaga.nvim'
+    Plug 'hrsh7th/nvim-compe'
+    Plug 'onsails/lspkind-nvim'
+    Plug 'kosayoda/nvim-lightbulb'
     " Telescope
     Plug 'nvim-lua/popup.nvim'
     Plug 'nvim-lua/plenary.nvim'
