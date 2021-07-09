@@ -40,5 +40,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-surround'
     " Nerd Commenter
     Plug 'preservim/nerdcommenter'
+    " Yank Highlighter
+    Plug 'machakann/vim-highlightedyank'
 
 call plug#end()
