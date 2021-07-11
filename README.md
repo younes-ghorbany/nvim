@@ -28,8 +28,7 @@ nvim
 # Run this commands inside neovim for installing lsp
 :TSInstall html css javascript typescript lua
 
-# Quit Neovim and install blew dependencies
-
+# Quit Neovim and install below dependencies
 npm i -g tree-sitter typescript typescript-language-server
 ```
 
