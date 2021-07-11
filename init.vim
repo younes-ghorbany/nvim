@@ -17,6 +17,7 @@ source $HOME/.config/nvim/plug-config/barbar.vim
 source $HOME/.config/nvim/plug-config/lsp-config.vim
 source $HOME/.config/nvim/plug-config/nvim-tree.vim
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
+luafile $HOME/.config/nvim/lua/plugins/telescope.lua
 luafile $HOME/.config/nvim/lua/plugins/colorizer.lua
 luafile $HOME/.config/nvim/lua/plugins/lspkind.lua
 luafile $HOME/.config/nvim/lua/plugins/lightbulb.lua
@@ -29,5 +30,4 @@ luafile $HOME/.config/nvim/lua/lsp/bash-lsp.lua
 luafile $HOME/.config/nvim/lua/lsp/ts-lsp.lua
 luafile $HOME/.config/nvim/lua/lsp/vim-lsp.lua
 luafile $HOME/.config/nvim/lua/lsp/html-lsp.lua
-luafile $HOME/.config/nvim/lua/lsp/sumneko_lua.lua
 
