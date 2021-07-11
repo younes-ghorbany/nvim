@@ -14,7 +14,7 @@ nnoremap <silent><C-k> :Lspsaga signature_help<CR>
 nnoremap <silent><F2> :Lspsaga rename<CR>
 nnoremap <silent><C-p> :Lspsaga diagnostic_jump_next<CR>
 nnoremap <silent><C-n>  :Lspsaga diagnostic_jump_prev<CR>
-nnoremap <silent> <> :Lspsaga open_floaterm<CR>
+nnoremap <silent> <A-d> :Lspsaga open_floaterm<CR>
 tnoremap <silent> <A-d> <C-\><C-n>:Lspsaga close_floaterm<CR>
 
 " auto-format
