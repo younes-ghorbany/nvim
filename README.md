@@ -5,9 +5,9 @@ This is my personal neovim config, feel free to give it a try and fork it to you
 ![nvim](https://github.com/younes-ghorbany/nvim/blob/main/assets/images/nvim-screenshot.png "nvim")
 
 # Requirments
+Linux and MacOs is supported for now, but with little path fix windows should work.
 Neovim 0.5+
 node/npm
-Linux/macos only for now
 
 ## Setup
 ```sh
@@ -28,8 +28,8 @@ nvim
 # Run this commands inside neovim for installing lsp
 :TSInstall html css javascript typescript lua
 
-# Quit Neovim and install below dependencies
-npm i -g tree-sitter typescript typescript-language-server
+# Quit Neovim and install below dependencies with npm
+npm i -g tree-sitter typescript typescript-language-server fzf
 ```
 
 
