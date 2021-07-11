@@ -24,6 +24,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hrsh7th/nvim-compe'
     Plug 'onsails/lspkind-nvim'
     Plug 'kosayoda/nvim-lightbulb'
+    Plug 'ray-x/lsp_signature.nvim'
 
     " Tree sitter
     Plug 'nvim-treesitter/nvim-treesitter'
