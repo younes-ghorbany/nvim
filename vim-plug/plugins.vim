@@ -17,6 +17,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Vim Rooter
     Plug 'airblade/vim-rooter'
 
+    " Easymotion And QuickScope
+    Plug 'easymotion/vim-easymotion'
+    Plug 'unblevable/quick-scope'
+
     " Smooth Scrolling
     Plug 'psliwka/vim-smoothie'
 
