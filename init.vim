@@ -8,6 +8,7 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/keys/telescope.vim
 source $HOME/.config/nvim/keys/barbar.vim
+source $HOME/.config/nvim/keys/rnvimr.vim
 
 " Themes and Colorschemes
 source $HOME/.config/nvim/themes/NeoSolarized.vim
@@ -16,6 +17,7 @@ source $HOME/.config/nvim/themes/NeoSolarized.vim
 source $HOME/.config/nvim/plug-config/barbar.vim
 source $HOME/.config/nvim/plug-config/lsp-config.vim
 source $HOME/.config/nvim/plug-config/nvim-tree.vim
+source $HOME/.config/nvim/plug-config/rnvimr.vim
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
 luafile $HOME/.config/nvim/lua/plugins/telescope.lua
 luafile $HOME/.config/nvim/lua/plugins/colorizer.lua
