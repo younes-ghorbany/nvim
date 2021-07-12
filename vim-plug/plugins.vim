@@ -14,6 +14,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " File Explorer
     Plug 'kyazdani42/nvim-tree.lua'
 
+    " Smooth Scrolling
+    Plug 'psliwka/vim-smoothie'
+
     " Ranger
     Plug 'kevinhwang91/rnvimr'
 
