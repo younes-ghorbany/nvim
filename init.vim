@@ -20,6 +20,7 @@ source $HOME/.config/nvim/plug-config/nvim-tree.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/vim-smoothie.vim
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
+luafile $HOME/.config/nvim/lua/plugins/toggleterm.lua
 luafile $HOME/.config/nvim/lua/plugins/telescope.lua
 luafile $HOME/.config/nvim/lua/plugins/colorizer.lua
 luafile $HOME/.config/nvim/lua/plugins/lspkind.lua

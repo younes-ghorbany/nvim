@@ -53,6 +53,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'romgrk/barbar.nvim'
 
+    " Terminal
+    Plug 'akinsho/nvim-toggleterm.lua'
+
     " Color Highlighter
     Plug 'norcalli/nvim-colorizer.lua'
 
