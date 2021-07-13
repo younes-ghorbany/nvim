@@ -11,6 +11,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
 
+    " Indent Blankline
+    Plug 'lukas-reineke/indent-blankline.nvim'
+
+    " NeoScroll For Smooth Scrolling
+    Plug 'karb94/neoscroll.nvim'
+
     " File Explorer
     Plug 'kyazdani42/nvim-tree.lua'
 

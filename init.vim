@@ -19,11 +19,13 @@ source $HOME/.config/nvim/plug-config/lsp-config.vim
 source $HOME/.config/nvim/plug-config/nvim-tree.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/vim-smoothie.vim
+source $HOME/.config/nvim/plug-config/indent.vim
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
 luafile $HOME/.config/nvim/lua/plugins/toggleterm.lua
 luafile $HOME/.config/nvim/lua/plugins/telescope.lua
 luafile $HOME/.config/nvim/lua/plugins/colorizer.lua
 luafile $HOME/.config/nvim/lua/plugins/lspkind.lua
+luafile $HOME/.config/nvim/lua/plugins/neoscroll.lua
 luafile $HOME/.config/nvim/lua/plugins/lightbulb.lua
 luafile $HOME/.config/nvim/lua/plugins/ts-rainbow.lua
 luafile $HOME/.config/nvim/lua/plugins/lualine.lua
@@ -33,3 +35,4 @@ luafile $HOME/.config/nvim/lua/lsp/bash-lsp.lua
 luafile $HOME/.config/nvim/lua/lsp/ts-lsp.lua
 luafile $HOME/.config/nvim/lua/lsp/vim-lsp.lua
 luafile $HOME/.config/nvim/lua/lsp/html-lsp.lua
+
