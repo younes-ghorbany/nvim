@@ -4,10 +4,20 @@ This is my personal neovim config, feel free to give it a try and fork it to you
 ## Screenshot
 ![nvim](https://github.com/younes-ghorbany/nvim/blob/main/assets/images/nvim-screenshot.png "nvim")
 
-# Requirments
+## Requirments
 Linux and MacOs is supported for now, but with little path fix windows should work.
 Neovim 0.5+
-node/npm
+Node 12+
+Npm 7+
+
+## Required Packages
+```sh
+# Arch Linux
+sudo pacman -S ranger highlight ripgrep fzf luajit python-pip python2-pip xclip python-nvim ueberzug
+
+# Ubuntu Linux (some packages must be downloaded from another source or etc.)
+sudo apt install ranger highlight ripgrep luajit python-pip xclip 
+```
 
 ## Setup
 ```sh
@@ -31,5 +41,3 @@ nvim
 # Quit Neovim and install below dependencies with npm
 npm i -g tree-sitter typescript typescript-language-server fzf bash-language-server vscode-langservers-extracted vim-language-server neovim
 ```
-
-

@@ -11,6 +11,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
 
+    " Better Search
+    Plug 'kevinhwang91/nvim-hlslens'
+
     " Indent Blankline
     Plug 'lukas-reineke/indent-blankline.nvim'
 

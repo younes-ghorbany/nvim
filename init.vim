@@ -15,6 +15,7 @@ source $HOME/.config/nvim/themes/NeoSolarized.vim
 
 " Plugin Config
 source $HOME/.config/nvim/plug-config/barbar.vim
+source $HOME/.config/nvim/plug-config/nvim-hlslens.vim
 source $HOME/.config/nvim/plug-config/lsp-config.vim
 source $HOME/.config/nvim/plug-config/nvim-tree.vim
 source $HOME/.config/nvim/plug-config/rnvimr.vim
