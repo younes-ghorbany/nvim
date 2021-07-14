@@ -14,6 +14,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Search
     Plug 'kevinhwang91/nvim-hlslens'
 
+    " Zen Mode
+    Plug 'Pocco81/TrueZen.nvim'
+
+    " Auto Close Tag
+    Plug 'windwp/nvim-ts-autotag'
+
     " Indent Blankline
     Plug 'lukas-reineke/indent-blankline.nvim'
 

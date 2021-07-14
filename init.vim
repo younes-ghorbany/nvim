@@ -22,6 +22,8 @@ source $HOME/.config/nvim/plug-config/rnvimr.vim
 source $HOME/.config/nvim/plug-config/vim-smoothie.vim
 source $HOME/.config/nvim/plug-config/indent.vim
 luafile $HOME/.config/nvim/lua/plugins/compe-config.lua
+luafile $HOME/.config/nvim/lua/plugins/truezen.lua
+luafile $HOME/.config/nvim/lua/plugins/nvim-ts-autotag.lua
 luafile $HOME/.config/nvim/lua/plugins/toggleterm.lua
 luafile $HOME/.config/nvim/lua/plugins/telescope.lua
 luafile $HOME/.config/nvim/lua/plugins/colorizer.lua
