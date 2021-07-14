@@ -29,7 +29,7 @@ nvim
 :TSInstall html css javascript typescript lua
 
 # Quit Neovim and install below dependencies with npm
-npm i -g tree-sitter typescript typescript-language-server fzf
+npm i -g tree-sitter typescript typescript-language-server fzf bash-language-server vscode-langservers-extracted vim-language-server neovim
 ```
 
 
